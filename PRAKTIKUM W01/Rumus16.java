@@ -32,7 +32,7 @@ public class Rumus16 {
                     waktu = input.nextInt();
                     
                     jarak = kecepatan*waktu;
-                    System.out.println("Hasil perhitungan jarak: " +jarak+" Km");
+                    System.out.println("Hasil perhitungan jarak: " +jarak+" Kilometer");
                     break;
                 case 3:
                     System.out.print("Masukkan jarak yang ditempuh (Kilometer): ");
