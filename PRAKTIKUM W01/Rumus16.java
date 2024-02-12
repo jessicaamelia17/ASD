@@ -17,12 +17,11 @@ public class Rumus16 {
             double jarak, waktu, kecepatan;
             switch (pilihan) {
                 case 1:
-                    System.out.print("Masukkan jarak yang ditempuh (Km): ");
+                    System.out.print("Masukkan jarak yang ditempuh (Kilometer): ");
                     jarak = input.nextInt();
                     System.out.print("Masukkan lama waktu yang ditempuh (Jam): ");
                     waktu = input.nextInt();
 
-                    kecepatan=0;
                     kecepatan = jarak/waktu;
                     System.out.println("Hasil perhitungan kecepatan: "+ kecepatan +" Km/jam");
                     break;
@@ -36,7 +35,7 @@ public class Rumus16 {
                     System.out.println("Hasil perhitungan jarak: " +jarak+" Km");
                     break;
                 case 3:
-                    System.out.print("Masukkan jarak yang ditempuh (Km): ");
+                    System.out.print("Masukkan jarak yang ditempuh (Kilometer): ");
                     jarak = input.nextInt();
                     System.out.print("Masukkan kecepatan yang ditempuh (Km/jam): ");
                     kecepatan = input.nextInt();

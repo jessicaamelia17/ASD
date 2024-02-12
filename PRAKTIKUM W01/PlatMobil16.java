@@ -35,7 +35,7 @@ public class PlatMobil16 {
 
         // Menampilkan nama kota jika kode plat ditemukan
         if (indeksKode != -1) {
-            System.out.println("Nama kota: ");
+            System.out.print("Nama kota: ");
             for (int j = 0; j < KOTA[indeksKode].length; j++) {
                 System.out.print(KOTA[indeksKode][j]);
             }
