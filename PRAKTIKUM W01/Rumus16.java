@@ -1,3 +1,4 @@
+//Jessica Amelia (16) SIB 1A
 import java.util.Scanner;
 public class Rumus16 {
     public static void main(String[] args) {
