@@ -5,6 +5,7 @@ public class PenggunaMain {
         System.out.print("Masukkan banyak pengguna: ");
         int jumlah = sc.nextInt();
         Pengguna[] penggunaArray = new Pengguna[jumlah];
+        Pengguna pengguna1 = new Pengguna();
 
         for (int i=0; i<penggunaArray.length; i++){
             penggunaArray[i] = new Pengguna();
