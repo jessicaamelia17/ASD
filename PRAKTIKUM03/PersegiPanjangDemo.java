@@ -21,5 +21,11 @@ public class PersegiPanjangDemo {
             arrayofPersegiPanjang[i].cetakInfo();
         
         }
+
+        int a=4;
+        while (a<6) {
+            System.out.println(a);
+            break;
+        }
     }
 }

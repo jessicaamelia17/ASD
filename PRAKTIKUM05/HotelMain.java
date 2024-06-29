@@ -18,6 +18,8 @@ public class HotelMain {
         dataHotel.bubbleSortHotelsByHarga();
         dataHotel.selectionSortHotelsByRating();
         dataHotel.displayInfo();
+
+        
     
     }
 }
